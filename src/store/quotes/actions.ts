@@ -1,6 +1,7 @@
 import { Action } from 'redux';
 import { ThunkDispatch } from 'redux-thunk';
 import { AppState } from '..';
+import authHeaders from '../../helpers/authHeaders';
 import {
   QuotesActionEnum, QuotesActionSet, QuotesActionSetIsLoading, QuotesActionStar, QuotesActionUnstar,
 } from './types';
@@ -23,7 +24,11 @@ function fetchQuotes() {
   return async (dispatch: ThunkDispatch<AppState, undefined, Action>) => {
     try {
       dispatch(setIsLoading(true));
-      const response = await (await fetch('/api/quotes.json')).json();
+      const response = await (await fetch('/api/quotes.json', {
+        headers: {
+          ...authHeaders(),
+        },
+      })).json();
       dispatch(setIsLoading(false));
 
       if (response.items) {

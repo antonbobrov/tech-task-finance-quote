@@ -1,6 +1,7 @@
 import { Action } from 'redux';
 import { ThunkDispatch } from 'redux-thunk';
 import { AppState } from '..';
+import authHeaders from '../../helpers/authHeaders';
 import { HistoryActionEnum, HistoryActionSet, HistoryActionSetIsLoading } from './types';
 
 function setIsLoading(payload: boolean): HistoryActionSetIsLoading {
@@ -21,7 +22,11 @@ function fetchHistroy() {
   return async (dispatch: ThunkDispatch<AppState, undefined, Action>) => {
     try {
       dispatch(setIsLoading(true));
-      const response = await (await fetch('/api/history.json')).json();
+      const response = await (await fetch('/api/history.json', {
+        headers: {
+          ...authHeaders(),
+        },
+      })).json();
       dispatch(setIsLoading(false));
       if (response.items) {
         dispatch(set(response.items));
