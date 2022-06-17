@@ -1,0 +1,250 @@
+{
+  "items": [
+    {
+        "key": "EUR/USD",
+        "from": "EUR",
+        "to": "USD",
+        "quote": 1.05
+    },
+    {
+        "key": "EUR/AUD",
+        "from": "EUR",
+        "to": "AUD",
+        "quote": 1.50
+    },
+    {
+        "key": "EUR/JPY",
+        "from": "EUR",
+        "to": "JPY",
+        "quote": 141.28
+    },
+    {
+        "key": "EUR/CNH",
+        "from": "EUR",
+        "to": "CNH",
+        "quote": 7.03
+    },
+    {
+        "key": "EUR/GBP",
+        "from": "EUR",
+        "to": "GBP",
+        "quote": 0.86
+    },
+    {
+        "key": "EUR/RUB",
+        "from": "EUR",
+        "to": "RUB",
+        "quote": 59.96
+    },
+    {
+      "key": "USD/EUR",
+      "from": "USD",
+      "to": "EUR",
+      "quote": 0.95
+    },
+    {
+        "key": "USD/AUD",
+        "from": "USD",
+        "to": "AUD",
+        "quote": 1.43
+    },
+    {
+        "key": "USD/JPY",
+        "from": "USD",
+        "to": "JPY",
+        "quote": 134.49
+    },
+    {
+        "key": "USD/CNH",
+        "from": "USD",
+        "to": "CNH",
+        "quote": 6.70
+    },
+    {
+        "key": "USD/GBP",
+        "from": "USD",
+        "to": "GBP",
+        "quote": 0.81
+    },
+    {
+        "key": "USD/RUB",
+        "from": "USD",
+        "to": "RUB",
+        "quote": 56.25
+    },
+    {
+      "key": "AUD/EUR",
+      "from": "AUD",
+      "to": "EUR",
+      "quote": 0.67
+    },
+    {
+      "key": "AUD/USD",
+      "from": "AUD",
+      "to": "USD",
+      "quote": 0.70
+    },
+    {
+        "key": "AUD/JPY",
+        "from": "AUD",
+        "to": "JPY",
+        "quote": 93.95
+    },
+    {
+        "key": "AUD/CNH",
+        "from": "AUD",
+        "to": "CNH",
+        "quote": 4.68
+    },
+    {
+        "key": "AUD/GBP",
+        "from": "AUD",
+        "to": "GBP",
+        "quote": 0.57
+    },
+    {
+        "key": "AUD/RUB",
+        "from": "AUD",
+        "to": "RUB",
+        "quote": 39.28
+    },
+    {
+      "key": "JPY/EUR",
+      "from": "JPY",
+      "to": "EUR",
+      "quote": 0.0071
+    },
+    {
+      "key": "JPY/USD",
+      "from": "JPY",
+      "to": "USD",
+      "quote": 0.0074
+    },
+    {
+      "key": "JPY/AUD",
+      "from": "JPY",
+      "to": "AUD",
+      "quote": 0.011
+    },
+    {
+      "key": "JPY/CNH",
+      "from": "JPY",
+      "to": "CNH",
+      "quote": 0.0498
+    },
+    {
+      "key": "JPY/GBP",
+      "from": "JPY",
+      "to": "GBP",
+      "quote": 0.0061
+    },
+    {
+      "key": "JPY/RUB",
+      "from": "JPY",
+      "to": "RUB",
+      "quote": 0.42
+    },
+    {
+      "key": "CNH/EUR",
+      "from": "CNH",
+      "to": "EUR",
+      "quote": 0.1420
+    },
+    {
+      "key": "CNH/USD",
+      "from": "CNH",
+      "to": "USD",
+      "quote": 0.1490
+    },
+    {
+      "key": "CNH/AUD",
+      "from": "CNH",
+      "to": "AUD",
+      "quote": 0.2134
+    },
+    {
+      "key": "CNH/JPY",
+      "from": "CNH",
+      "to": "JPY",
+      "quote": 20.0647
+    },
+    {
+      "key": "CNH/GBP",
+      "from": "CNH",
+      "to": "GBP",
+      "quote": 0.1215
+    },
+    {
+      "key": "CNH/RUB",
+      "from": "CNH",
+      "to": "RUB",
+      "quote": 8.3851
+    },
+    {
+      "key": "GBP/EUR",
+      "from": "GBP",
+      "to": "EUR",
+      "quote": 1.17
+    },
+    {
+      "key": "GBP/USD",
+      "from": "GBP",
+      "to": "USD",
+      "quote": 1.22
+    },
+    {
+      "key": "GBP/AUD",
+      "from": "GBP",
+      "to": "AUD",
+      "quote": 1.76
+    },
+    {
+      "key": "GBP/JPY",
+      "from": "GBP",
+      "to": "JPY",
+      "quote": 164.86
+    },
+    {
+      "key": "GBP/CNH",
+      "from": "GBP",
+      "to": "CNH",
+      "quote": 8.1914
+    },
+    {
+      "key": "GBP/RUB",
+      "from": "GBP",
+      "to": "RUB",
+      "quote": 68.89
+    },
+    {
+      "key": "RUB/EUR",
+      "from": "RUB",
+      "to": "EUR",
+      "quote": 0.017
+    },
+    {
+      "key": "RUB/AUD",
+      "from": "RUB",
+      "to": "AUD",
+      "quote": 0.026
+    },
+    {
+      "key": "RUB/JPY",
+      "from": "RUB",
+      "to": "JPY",
+      "quote": 2.39
+    },
+    {
+      "key": "RUB/CNH",
+      "from": "RUB",
+      "to": "CNH",
+      "quote": 0.1192
+    },
+    {
+      "key": "RUB/GBP",
+      "from": "RUB",
+      "to": "GBP",
+      "quote": 0.015
+    }
+  ]
+}
